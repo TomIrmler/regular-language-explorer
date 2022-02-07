@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 0px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+
+.elementBox, .elementBoxWrapper, .elementAdderBox, .namingField, .addingButton, .textbracket, .kommaBox{
+
+    display: inline-block;
+}
+
+.textbracket_open {
+    margin-right: 3px;
+}
+
+
+.textbracket_close {
+    margin-left: 3px;
+}
+
+.kommaBox{
+    margin-right: 2px;
+}
+
+.radio_set {
+    display: inline-block;
+}
+
+#set_rr {
+    margin-right: 3px
+}
+
+#set_lr {
+    margin-left: 3px
+}
+
+.pv_left_side, .pv_arrow, .right_side_box, .pipeBox, .pv_elementBox, .pv_inputBox, .pv_terminal_selector, .folge_nt_selector, .pv_addingButton {
+    display: inline-block;
+}
+
+.pv_elementBox, .pipeBox {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.pv_arrow{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#N_editor, #T_editor, #S_editor, #dir_editor, #P_editor, #kh_control, #kh_textblock {
+    margin-top: 4px;
+    margin-bottom: 4px; 
+    padding: 0px 10px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 7px;
+
+}
+
+#kh_button {
+    margin-left: 5px;
+}
+
+#dir_editor, #kh_control, #kh_textblock{
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+#title {
+    padding:16px 10px;
+    margin: 6px 0px;
+    background-color: #A6BAE9;
+    border-radius: 7px;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.namingField {
+    margin-left:3px;
+    margin-right:0.5px;
+}
+
+
+.addingButton {
+    margin-right:3px;
+    margin-left:0.5px;
+}
+
+#S_selector{
+    height: 20px;
+    margin-left: 3px; 
+}
+
+.pv_addingButton, .pv_terminal_selector, .folge_nt_selector {
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+    height: 21px;
+}
+
+#kh_container, #control_panel {
+    margin: 8px 0px;
+}
